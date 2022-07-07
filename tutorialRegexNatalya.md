@@ -45,12 +45,29 @@ Character Classes allow you to match any one of the specified character sets, fo
 
 ### The OR Operator
 
+OR Operators (Alternation Operator) matches on of a choice of regular expressions: if you put the character(s) representing the alternation operator between any two characters in the regular expression, the result matches the union of the strings that those two characters match.
+
+Examples of OR Operators are as follows:
+
+* `(|)` - matches a string that has any anterior characters followed by the characters on the left or right of the vertical bar
+* `[]` - matches a string that has any anterior characters without any characters within the brackets
+* Examples: 
+```
+x(y|z)  matches a string that has x followed by y or z (and captures y or z)
+x[bc]   matches a string that has x, but without capturing b or c
+
+This example did not have an OR operator.
 
 
 ### Flags
 
+In this example, the flad is .d (Include indices for capturing groups on match results (hasIndices)) in bracket expression [\da-z\.-] indicating that it is an index.
+
 ### Character Escapes
+
+\ inside a bracket expression followed by special character will look for the special character inside the expression. In this example [a-z0-9_\.-] it is expecting to have an underscore character inside, but then it finishes with a .dot character which is a wildcard and means any and all character.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Natalya is a student full-stack developer learning coding and its nuances. Find more repositories on https://github.com/NatalyaCo?tab=repositories.
+
