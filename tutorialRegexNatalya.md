@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial by Natalya
 
-Introductory paragraph (replace this with your text)
+Regular Expressions, also known as "REGEX", are sequences of characters that define search patterns in text. These expressions do not belong to any one coding language and can be used in any text document. User can set parameters to search with, instead of having to search for exact match to the symbols typed.
 
 ## Summary
 
