@@ -33,7 +33,7 @@ In this expression, the qualifier is the {2,6} at the end that relates to the nu
 
 ### Grouping Constructs
 
-In this example, Grouping Constructs are ([a-z0-9_\.-]+) and ([\da-z\.-]+) and ([a-z\.]{2,6}) where each set is contained within the parentesis that is almost like a phrase within the parameters. Just by looking at it, we can assertain that the first grouping construct is an email name that is expected to contain letters of alphabet, numbers 
+In this example, Grouping Constructs are ([a-z0-9_\.-]+) and ([\da-z\.-]+) and ([a-z\.]{2,6}) where each set is contained within the parenthesis that is almost like a phrase within the parameters. Just by looking at it, we can ascertain that the first grouping construct is an email name that is expected to contain letters of alphabet, numbers 
 
 ### Bracket Expressions
 
